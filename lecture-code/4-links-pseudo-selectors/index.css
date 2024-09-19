@@ -1,0 +1,19 @@
+/* Selectors, pseudo-selectors, specificity */
+tag {}
+.class {}
+#id {}
+
+ul.links-list > li {
+  background: lightgrey;
+}
+
+li {
+  background: red;
+}
+
+
+
+a { color: black; }
+a:visited { color: purple } /* a link once a user has visited the page */
+a:hover { color: red } /* a link when the mouse hovers over it */
+a:active { color: blue; } /* a link the moment it is clicked */
